@@ -1,0 +1,101 @@
+{
+  "name": "Part of Speech Tagger",
+  "slug": "pos-tagger",
+  "keywords": "pos tagger nlp parts-of-speech",
+  "description": "Identify part of speech tags (Nouns, Verbs, and so on...). You give it sentence, it gives you a list of tags back..",
+  "repository": "https://github.com/DopplerMarket/example-app-natural-language",
+  "input_scheme": {
+    "texts": "string"
+  },
+  "output_scheme": {
+    "texts": "object"
+  },
+  "input_example": {
+    "texts": "Doppler makes building and deploying machine learning models easy. Discover pretrained models and predict on them with our API."
+  },
+  "output_example": {
+    "texts": [
+      [
+        {
+          "word":"Doppler",
+          "tag":"NNP"
+        },
+        {
+          "word":"makes",
+          "tag":"VBZ"
+        },
+        {
+          "word":"building",
+          "tag":"NN"
+        },
+        {
+          "word":"and",
+          "tag":"CC"
+        },
+        {
+          "word":"deploying",
+          "tag":"NN"
+        },
+        {
+          "word":"machine",
+          "tag":"NN"
+        },
+        {
+          "word":"learning",
+          "tag":"VBG"
+        },
+        {
+          "word":"models",
+          "tag":"NNS"
+        },
+        {
+          "word":"easy",
+          "tag":"JJ"
+        }
+      ],
+      [
+        {
+          "word":"Discover",
+          "tag":"NNP"
+        },
+        {
+          "word":"pretrained",
+          "tag":"VBD"
+        },
+        {
+          "word":"models",
+          "tag":"NNS"
+        },
+        {
+          "word":"and",
+          "tag":"CC"
+        },
+        {
+          "word":"predict",
+          "tag":"VBP"
+        },
+        {
+          "word":"on",
+          "tag":"IN"
+        },
+        {
+          "word":"them",
+          "tag":"PRP"
+        },
+        {
+          "word":"with",
+          "tag":"IN"
+        },
+        {
+          "word":"our",
+          "tag":"PRP$"
+        },
+        {
+          "word":"API",
+          "tag":"NN"
+        }
+      ]
+    ]
+  },
+  "license": "Apache License"
+}
