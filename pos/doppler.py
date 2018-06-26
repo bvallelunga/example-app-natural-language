@@ -5,8 +5,9 @@ import nltk, json
 class ModelInterface():
   
   def __init__(self):
-    nltk.download('punkt')
-    nltk.download('averaged_perceptron_tagger')
+    nltk.data.path = [ "/tmp/nltk_data" ]
+    nltk.download('punkt', download_dir="/tmp/nltk_data")
+    nltk.download('averaged_perceptron_tagger', download_dir="/tmp/nltk_data")
 
   
   def prediction(self, input):    

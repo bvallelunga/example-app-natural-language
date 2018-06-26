@@ -16,8 +16,8 @@ run on the part of speech tagger machine learning model.
 
 ## Output Scheme
 The output will be a 2 dimensional array of part of speech tags. The first dimension is of sentences where the 2nd dimension is of tags by word in that sentence.
+You can read about what the different tags mean at the [Universal Dependencies project](http://universaldependencies.org/u/pos/index.html).
 
- 
 ``` json
 {
   "texts":[
