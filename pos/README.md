@@ -21,84 +21,27 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
 {
   "texts":[
     [
-      {
-        "word":"Doppler",
-        "tag":"NNP"
-      },
-      {
-        "word":"makes",
-        "tag":"VBZ"
-      },
-      {
-        "word":"building",
-        "tag":"NN"
-      },
-      {
-        "word":"and",
-        "tag":"CC"
-      },
-      {
-        "word":"deploying",
-        "tag":"NN"
-      },
-      {
-        "word":"machine",
-        "tag":"NN"
-      },
-      {
-        "word":"learning",
-        "tag":"VBG"
-      },
-      {
-        "word":"models",
-        "tag":"NNS"
-      },
-      {
-        "word":"easy",
-        "tag":"JJ"
-      }
+      { "word": "Doppler",    "tag": "NNP"  },
+      { "word": "makes",      "tag": "VBZ"  },
+      { "word": "building",   "tag": "NN"   },
+      { "word": "and",        "tag": "CC"   },
+      { "word": "deploying",  "tag": "NN"   },
+      { "word": "machine",    "tag": "NN"   },
+      { "word": "learning",   "tag": "VBG"  },
+      { "word": "models",     "tag": "NNS"  },
+      { "word": "easy",       "tag": "JJ"   }
     ],
     [
-      {
-        "word":"Discover",
-        "tag":"NNP"
-      },
-      {
-        "word":"pretrained",
-        "tag":"VBD"
-      },
-      {
-        "word":"models",
-        "tag":"NNS"
-      },
-      {
-        "word":"and",
-        "tag":"CC"
-      },
-      {
-        "word":"predict",
-        "tag":"VBP"
-      },
-      {
-        "word":"on",
-        "tag":"IN"
-      },
-      {
-        "word":"them",
-        "tag":"PRP"
-      },
-      {
-        "word":"with",
-        "tag":"IN"
-      },
-      {
-        "word":"our",
-        "tag":"PRP$"
-      },
-      {
-        "word":"API",
-        "tag":"NN"
-      }
+      { "word": "Discover",   "tag": "NNP"  },
+      { "word": "pretrained", "tag": "VBD"  },
+      { "word": "models",     "tag": "NNS"  },
+      { "word": "and",        "tag": "CC"   },
+      { "word": "predict",    "tag": "VBP"  },
+      { "word": "on",         "tag": "IN"   },
+      { "word": "them",       "tag": "PRP"  },
+      { "word": "with",       "tag": "IN"   },
+      { "word": "our",        "tag": "PRP$" },
+      { "word": "API",        "tag": "NN"   }
     ]
   ]
 }
