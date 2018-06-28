@@ -1,4 +1,4 @@
-# Syntax Lemm
+# NLP Lemma
 Identify the canonical form, dictionary form, or citation form for a set of words. You can use it to extract information about people, places, 
 events and much more, mentioned in text documents, news articles or blog posts.
   
