@@ -20,7 +20,7 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
 ``` json
 {
   "texts":[
-    # Sentence 1
+    // Sentence 1
     [
       {
         "word":"Doppler",
@@ -77,7 +77,7 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
         "description_long":"adjective or numeral"
       }
     ],
-    # Sentence 2
+    // Sentence 2
     [
       {
         "word":"Discover",
