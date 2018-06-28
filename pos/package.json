@@ -1,6 +1,6 @@
 {
   "name": "Part of Speech Tagger",
-  "slug": "pos-tagger",
+  "slug": "nlp-pos",
   "keywords": "pos tagger nlp parts-of-speech",
   "description": "Identify part of speech tags (Nouns, Verbs, and so on...). You give it sentence, it gives you a list of tags back..",
   "repository": "https://github.com/DopplerMarket/example-app-natural-language",
