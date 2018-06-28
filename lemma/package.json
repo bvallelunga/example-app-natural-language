@@ -1,5 +1,5 @@
 {
-  "name": "NLP Syntax Lemma",
+  "name": "Lemma Form",
   "slug": "nlp-lemma",
   "keywords": "lemma nlp natural language syntax",
   "description": "Identify the lemma (root word) for a set of words.",
