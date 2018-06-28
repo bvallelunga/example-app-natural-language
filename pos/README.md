@@ -17,7 +17,7 @@ run on the part of speech tagger machine learning model.
 ## Output Scheme
 The output will be a 2 dimensional array of part of speech tags. The first dimension is of sentences where the 2nd dimension is of tags by word in that sentence.
 
-``` json
+``` javascript
 {
   "texts":[
     // Sentence 1
