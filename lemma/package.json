@@ -1,0 +1,89 @@
+{
+  "name": "Syntax Lemma",
+  "slug": "syntax-lemma",
+  "keywords": "lemma nlp natural language syntax",
+  "description": "Identify the lemma (root word) for a set of words.",
+  "repository": "https://github.com/DopplerMarket/example-app-natural-language",
+  "input_scheme": {
+    "texts": "string"
+  },
+  "output_scheme": {
+    "texts": "object"
+  },
+  "input_example": {
+    "texts": "Doppler, headquartered in San Francisco, helps make machine learning simple to find pretrained models."
+  },
+  "output_example": {
+    "texts":[
+      {
+        "word":"Doppler",
+        "lemma":"Doppler"
+      },
+      {
+        "word":",",
+        "lemma":","
+      },
+      {
+        "word":"headquartered",
+        "lemma":"headquarter"
+      },
+      {
+        "word":"in",
+        "lemma":"in"
+      },
+      {
+        "word":"San",
+        "lemma":"San"
+      },
+      {
+        "word":"Francisco",
+        "lemma":"Francisco"
+      },
+      {
+        "word":",",
+        "lemma":","
+      },
+      {
+        "word":"helps",
+        "lemma":"help"
+      },
+      {
+        "word":"make",
+        "lemma":"make"
+      },
+      {
+        "word":"machine",
+        "lemma":"machine"
+      },
+      {
+        "word":"learning",
+        "lemma":"learn"
+      },
+      {
+        "word":"simple",
+        "lemma":"simple"
+      },
+      {
+        "word":"to",
+        "lemma":"to"
+      },
+      {
+        "word":"find",
+        "lemma":"find"
+      },
+      {
+        "word":"pretrained",
+        "lemma":"pretrained"
+      },
+      {
+        "word":"models",
+        "lemma":"model"
+      },
+      {
+        "word":".",
+        "lemma":"."
+      }
+    ]
+  },
+  "license": "Apache License"
+}

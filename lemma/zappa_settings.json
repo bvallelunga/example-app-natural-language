@@ -1,0 +1,21 @@
+{
+  "staging": {
+    "app_function": "server.server",
+    "aws_region": "us-west-1",
+    "profile_name": "default",
+    "project_name": "app-6-model-5",
+    "runtime": "python3.6",
+    "s3_bucket": "doppler-zappa",
+    "payload_compression": true,
+    "keep_warm": true,
+    "keep_warm_expression": "rate(4 minutes)",
+    "include": ["libs"],
+    "exclude": [],
+    "slim_handler": true,
+    "binary_support": true,
+    "memory_size": 1024,
+    "aws_environment_variables": {
+      "ACCESS_TOKEN": "dfasdf3t9hqpgomk5foct8dp5bhyg9u13frph9dlaqmmng"
+    }
+  }
+}
