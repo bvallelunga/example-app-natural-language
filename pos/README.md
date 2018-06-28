@@ -20,6 +20,7 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
 ``` json
 {
   "texts":[
+    # Sentence 1
     [
       {
         "word":"Doppler",
@@ -76,6 +77,7 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
         "description_long":"adjective or numeral"
       }
     ],
+    # Sentence 2
     [
       {
         "word":"Discover",
@@ -83,60 +85,7 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
         "description_short":"noun",
         "description_long":"noun, proper, singular"
       },
-      {
-        "word":"pretrained",
-        "tag":"VBD",
-        "description_short":"verb",
-        "description_long":"verb, past tense"
-      },
-      {
-        "word":"models",
-        "tag":"NNS",
-        "description_short":"noun",
-        "description_long":"noun, common, plural"
-      },
-      {
-        "word":"and",
-        "tag":"CC",
-        "description_short":"conjunction",
-        "description_long":"conjunction"
-      },
-      {
-        "word":"predict",
-        "tag":"VBP",
-        "description_short":"verb",
-        "description_long":"verb, present tense, not 3rd person singular"
-      },
-      {
-        "word":"on",
-        "tag":"IN",
-        "description_short":"preposition",
-        "description_long":"preposition or conjunction"
-      },
-      {
-        "word":"them",
-        "tag":"PRP",
-        "description_short":"pronoun",
-        "description_long":"pronoun, personal"
-      },
-      {
-        "word":"with",
-        "tag":"IN",
-        "description_short":"preposition",
-        "description_long":"preposition or conjunction"
-      },
-      {
-        "word":"our",
-        "tag":"PRP$",
-        "description_short":"pronoun",
-        "description_long":"pronoun, possessive"
-      },
-      {
-        "word":"API",
-        "tag":"NN",
-        "description_short":"noun",
-        "description_long":"noun, common, singular or mass"
-      }
+      ...
     ]
   ]
 }
