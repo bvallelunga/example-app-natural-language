@@ -21,27 +21,122 @@ The output will be a 2 dimensional array of part of speech tags. The first dimen
 {
   "texts":[
     [
-      { "word": "Doppler",    "tag": "NNP"  },
-      { "word": "makes",      "tag": "VBZ"  },
-      { "word": "building",   "tag": "NN"   },
-      { "word": "and",        "tag": "CC"   },
-      { "word": "deploying",  "tag": "NN"   },
-      { "word": "machine",    "tag": "NN"   },
-      { "word": "learning",   "tag": "VBG"  },
-      { "word": "models",     "tag": "NNS"  },
-      { "word": "easy",       "tag": "JJ"   }
+      {
+        "word":"Doppler",
+        "tag":"NNP",
+        "description_short":"noun",
+        "description_long":"noun, proper, singular"
+      },
+      {
+        "word":"makes",
+        "tag":"VBZ",
+        "description_short":"verb",
+        "description_long":"verb, present tense, 3rd person singular"
+      },
+      {
+        "word":"building",
+        "tag":"NN",
+        "description_short":"noun",
+        "description_long":"noun, common, singular or mass"
+      },
+      {
+        "word":"and",
+        "tag":"CC",
+        "description_short":"conjunction",
+        "description_long":"conjunction"
+      },
+      {
+        "word":"deploying",
+        "tag":"NN",
+        "description_short":"noun",
+        "description_long":"noun, common, singular or mass"
+      },
+      {
+        "word":"machine",
+        "tag":"NN",
+        "description_short":"noun",
+        "description_long":"noun, common, singular or mass"
+      },
+      {
+        "word":"learning",
+        "tag":"VBG",
+        "description_short":"verb",
+        "description_long":"verb, present participle"
+      },
+      {
+        "word":"models",
+        "tag":"NNS",
+        "description_short":"noun",
+        "description_long":"noun, common, plural"
+      },
+      {
+        "word":"easy",
+        "tag":"JJ",
+        "description_short":"adjective",
+        "description_long":"adjective or numeral"
+      }
     ],
     [
-      { "word": "Discover",   "tag": "NNP"  },
-      { "word": "pretrained", "tag": "VBD"  },
-      { "word": "models",     "tag": "NNS"  },
-      { "word": "and",        "tag": "CC"   },
-      { "word": "predict",    "tag": "VBP"  },
-      { "word": "on",         "tag": "IN"   },
-      { "word": "them",       "tag": "PRP"  },
-      { "word": "with",       "tag": "IN"   },
-      { "word": "our",        "tag": "PRP$" },
-      { "word": "API",        "tag": "NN"   }
+      {
+        "word":"Discover",
+        "tag":"NNP",
+        "description_short":"noun",
+        "description_long":"noun, proper, singular"
+      },
+      {
+        "word":"pretrained",
+        "tag":"VBD",
+        "description_short":"verb",
+        "description_long":"verb, past tense"
+      },
+      {
+        "word":"models",
+        "tag":"NNS",
+        "description_short":"noun",
+        "description_long":"noun, common, plural"
+      },
+      {
+        "word":"and",
+        "tag":"CC",
+        "description_short":"conjunction",
+        "description_long":"conjunction"
+      },
+      {
+        "word":"predict",
+        "tag":"VBP",
+        "description_short":"verb",
+        "description_long":"verb, present tense, not 3rd person singular"
+      },
+      {
+        "word":"on",
+        "tag":"IN",
+        "description_short":"preposition",
+        "description_long":"preposition or conjunction"
+      },
+      {
+        "word":"them",
+        "tag":"PRP",
+        "description_short":"pronoun",
+        "description_long":"pronoun, personal"
+      },
+      {
+        "word":"with",
+        "tag":"IN",
+        "description_short":"preposition",
+        "description_long":"preposition or conjunction"
+      },
+      {
+        "word":"our",
+        "tag":"PRP$",
+        "description_short":"pronoun",
+        "description_long":"pronoun, possessive"
+      },
+      {
+        "word":"API",
+        "tag":"NN",
+        "description_short":"noun",
+        "description_long":"noun, common, singular or mass"
+      }
     ]
   ]
 }
